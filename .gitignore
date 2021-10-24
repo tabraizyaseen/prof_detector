@@ -107,7 +107,6 @@ celerybeat.pid
 env/
 venv/
 ENV/
-deep_env/
 env.bak/
 venv.bak/
 
@@ -130,4 +129,7 @@ dmypy.json
 .pyre/
 
 # media file
-media/
+media
+
+# environment folder
+deep_env
