@@ -41,6 +41,9 @@ def Signup(request):
         form = CreateUserForm(request.POST)
         if form.is_valid():
             user = form.save()
+            user.is_staff = True
+            user.is_superuser = True
+            user.save()
             username = form.cleaned_data.get('username')
 
             # group = Group.objects.get(name='customer')
