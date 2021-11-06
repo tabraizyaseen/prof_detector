@@ -41,17 +41,6 @@
 			</div>
 		</div>
 
-		<!-- <div class="text-center mt-3">
-			<img src="/media/images/poli_Xwwo1zi.jpg" alt="connect" style="max-height:300px">
-			
-			Firefighter
-			<div class="progress m-2">
-			  <div class="progress-bar" role="progressbar" style="width: 6%; font-size: 17px; color: #000000; font-style: bold;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">6%</div>
-			</div>
-
-			<br>
- 		</div> -->
-
 		<!-- Display results -->
 		{% if img_obj %}
 		<div class="text-center mt-3">
@@ -59,7 +48,7 @@
 			<br>
 			
 			{% for result in results %}
-			{% if result.accu > 2.00 %}
+			{% if result.accu > 15.00 %}
 			<b>{{result.prof}}</b>
 			<div class="progress m-2">
 			  <div class="progress-bar" role="progressbar" style="width: {{result.accu}}%; font-size: 17px; color: #000000; font-style: bold;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">{{result.accu}}%</div>
@@ -73,18 +62,6 @@
 		{% endif %}
 
 	</div>
-
-
-	<!-- Add form-control to upload filed -->
-	<!-- <script>
-
-		//Query All input fields
-		var form_fields = document.getElementsByTagName('input')
-
-		for (var field in form_fields){
-			form_fields[field].className += ' form-control'
-		}
-	</script> -->
 
 
 </div>
