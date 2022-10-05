@@ -16,7 +16,7 @@ with the help of trained models VGG19 and ResNet50
 [![Made With Django](https://www.djangoproject.com/m/img/logos/django-logo-negative.png)](https://docs.djangoproject.com/en/stable/) 
 
 ## CNN Models Downloaded From
-- A huge Shoutout to @ninja3697 for It's Open Source Contribution and making this happen
+- A huge Shoutout to @ninja3697 for It's Open Source Contribution and making this project happen
 - https://github.com/ninja3697/Profession-Detection-System
 
 ## Build with
